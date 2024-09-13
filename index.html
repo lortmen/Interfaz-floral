@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+</head>
+<body>
+    <!-- Cabecera -->
+    <header class="header">
+        <img src="img/logo.png" alt="logo de la web">
+    </header>
+
+    <div class="cuerpo">
+        <!-- Menú de navegación -->
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+
+        
+        <!-- Contenedor del formulario de registro -->
+        <div class="container">
+            <h1>Registro de Usuario</h1>
+            <form class="reg_form" action="#" method="POST">
+                <label for="name">Nombre Completo:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm_password">Confirmar Contraseña:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+
+                <input class="button" type="submit" value="Registrarse">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

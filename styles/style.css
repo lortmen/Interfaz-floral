@@ -1,0 +1,99 @@
+
+:root{
+    --bgcolor: #ffffff57;
+    --textcolor: black;
+    --buttoncolor: #B2CEDE;
+    --buttonhover: #e2a8cb;
+}
+
+body{
+    background-color:var(--bgcolor);
+}
+
+h1{
+    color: var(--textcolor);
+    text-align: center;
+}
+
+header{
+    background-color: transparent;
+    padding: 2.5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1{
+    font-size: 50px;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.reg_form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: aliceblue;
+    width: 500px;
+    padding-bottom: 2%;
+    border-radius: 10px;
+}
+
+.container h1{
+    border-bottom:60px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reg_form label {
+    font-size: 16px;
+    margin-top: 15px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.reg_form input{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button{
+    padding: 15px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: var(--buttoncolor);
+    font-size:20px;
+    border-color: grey;
+}
+
+.button:hover{
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: var(--buttonhover);
+}
+
+
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+nav a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: var(--buttonhover);
+}
